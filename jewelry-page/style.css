@@ -1,0 +1,217 @@
+body {
+    background-color: lightslategray;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 4rem;
+    padding-top: 0px;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+
+header {
+    background-color: silver;
+    border-radius: 20px;
+}
+
+
+header > img {
+    width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+footer img {
+    width: 75%;
+    margin-top: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+
+section {
+    display: flex;
+}
+
+
+article {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    display: flex;
+}
+
+
+footer div {
+    flex: 1;
+}
+
+
+.copyright {
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+
+nav {
+    background-color: silver;
+    border-radius: 20px;
+}
+
+
+li a:link {
+    color: black;
+}
+
+
+li a:hover {
+    color: darkslateblue;
+}
+
+
+li a:active {
+    background-color: lightslategray;
+}
+
+
+nav li a {
+    font-size: 1.5rem;
+}
+
+
+.rings {
+    background-image: url("rings.jpg");
+    border-radius: 20px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: black 5px 0 5px;
+}
+
+
+.body1 {
+    background-color: silver;
+    border: 5px solid silver;
+    border-radius: 25px;
+    margin-right: .5rem;
+    text-align: center;
+    height: 37rem;
+}
+
+
+.body2 {
+    background-color: silver;
+    border: 5px solid silver;
+    border-radius: 25px;
+    margin-left:.5rem;
+    margin-right: .5rem;
+    text-align: center;
+}
+
+
+.body3 {
+    background-color: silver;
+    border: 5px solid silver;
+    border-radius: 25px;
+    margin-left: .5rem;
+    text-align: center;
+    height: 37rem;
+}
+
+
+h2:hover {
+    transform: scale(1.5,1.5);
+    transition: .5s;
+}
+
+
+nav li img {
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.spin:hover {
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+
+
+#sale2 {
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+
+main ul {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+main ul li {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+
+
+
+
+figure img {
+    width: 6rem;
+    height: 6rem;
+}
+
+
+#body2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+figcaption a:link {
+    color: black;
+}
+
+
+figcaption a:hover {
+    color: darkslateblue;
+}
+
+
+figcaption a:active {
+    background-color: lightslategray;
+}
